@@ -29,6 +29,6 @@ for giro in range(n):
 originale = ""
 for riga in tabella:
     if riga[-1] == "$":
-        originale = riga[:-1]   # tolgo il "$"
+        originale = riga[:-1]  
 
 print(tabella)   
